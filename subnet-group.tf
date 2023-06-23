@@ -6,3 +6,4 @@ resource "aws_db_subnet_group" "default" {
     Name = "${var.ENV}-${var.COMPONENT}"
   }
 }
+
