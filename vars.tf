@@ -6,3 +6,4 @@ variable "SUBNET_IDS" {}
 variable "VPC_ID" {}
 variable "ENGINE" {}
 variable "INSTANCE_CLASS" {}
+variable "CIDR_BLOCK" {}
