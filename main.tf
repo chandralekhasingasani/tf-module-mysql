@@ -11,6 +11,7 @@ resource "aws_db_instance" "default" {
   skip_final_snapshot  = true
   db_subnet_group_name  = aws_db_subnet_group.default.name
   vpc_security_group_ids = [aws_security_group.allow_tls.id]
+  availability_zone      = "${var.AZ[0]}"
 }
 
 data "aws_secretsmanager_secret" "roboshop" {
