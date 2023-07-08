@@ -8,3 +8,4 @@ variable "ENGINE" {}
 variable "INSTANCE_CLASS" {}
 variable "CIDR_BLOCK" {}
 variable "AZ" {}
+variable "PRIVATE_HOSTED_ZONE_ID" {}
